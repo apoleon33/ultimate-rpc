@@ -12,6 +12,14 @@
 		"teams":{
 			"id":835862464276201493,
 			"state":"working from home"
+		},
+		"steam":{
+			"id":835878807020896276,
+			"state":"looking for a cool game to launch"
+		},
+		"audacity":{
+			"id":835882815497175055,
+			"state":"making some good music"
 		}
 	}
 }
