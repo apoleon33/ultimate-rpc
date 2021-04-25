@@ -7,6 +7,11 @@
 		"firefox":{
 			"id":835141269801009176,
 			"state":"surfing on the web"
+		},
+
+		"teams":{
+			"id":835862464276201493,
+			"state":"working from home"
 		}
 	}
 }

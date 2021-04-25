@@ -22,11 +22,13 @@ while True:
 				if process.name()==x and process.status()=='running':
 					actual=process
 					RPC=Presence(file['app'][x]['id'])
+					start_time=time.time()
 					RPC.connect()
 					while close is True:
 						try:
 							process.status()
-							RPC.update(state=str(file['app'][x]['state']),large_image="icon",start=start_time,)
+							RPC.update(state=str(file['app'][x]['state']),large_text=x,
+								small_image="logo", small_text="ultimate-rpc",large_image="icon",start=start_time,)
 						except:
 							close=False
 					RPC.clear()
