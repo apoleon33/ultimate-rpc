@@ -44,11 +44,3 @@ while True:
 		x=0
 		i=0
 	sleep(1)
-	'''try:
-		if a==1 and actual.status()=='sleeping':
-			print('sleeping')
-		else:
-			#RPC.clear()
-			print("cleaned!")
-	except:
-		pass'''
