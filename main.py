@@ -28,7 +28,8 @@ while True:
 						try:
 							process.status()
 							RPC.update(state=str(file['app'][x]['state']),large_text=x,
-								small_image="logo", small_text="ultimate-rpc",large_image="icon",start=start_time,)
+								small_image="logo", small_text="ultimate-rpc",large_image="icon",start=start_time,
+								buttons = [{"label": "about ultimate-rpc", "url": 'https://github.com/apoleon33/ultimate-rpc'}])
 						except:
 							close=False
 					RPC.clear()
