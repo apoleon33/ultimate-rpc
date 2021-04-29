@@ -12,11 +12,3 @@ python3 main.py
 ```
 # On what os does it work?
 I don't know, It works well on manjaro Linux, but I don't know if it works for the other os. If someone have the time to try it, please do, and feel free to leave an issue!
-
-# currently working software:
-- chromium
-- firefox
-- Microsoft teams
-- steam
-- audacity
-- ...and more to come!

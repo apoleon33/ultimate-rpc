@@ -20,6 +20,14 @@
 		"audacity":{
 			"id":835882815497175055,
 			"state":"making some good music"
+		},
+		"thunderbird":{
+			"id":836263467035656283,
+			"state":"sending mails"
+		},
+		"soffice.bin":{
+			"id":836267786934157332,
+			"state":"editing a document"
 		}
 	}
 }
